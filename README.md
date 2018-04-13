@@ -9,4 +9,4 @@ ComputeWheelResultDistance.ipynb Will calculate the distance between the submitt
 
 To change between result set A and B on Processing Answer Files, change “Test_ID=[Letter]” in block 2 and on Results Distance change top line “Test_ID=[Letter]”.
 
-Note that ProcessingAnswerFiles will print any missing labels (answers) and stop at any duplicates to help prevent human error.
+Note that ProcessingAnswerFiles will print any missing labels (answers) and stop at any duplicates to help prevent human error. It will also ignore any file names starting with the word Void.
